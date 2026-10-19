@@ -99,6 +99,22 @@ platforms:
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
+    # ↓ 财经资讯新增（文档《戒掉热搜，开始读财经新闻》）
+    - id: "jin10"
+      name: "金十数据"
+      expected_domain: "jin10.com"
+    - id: "xueqiu"
+      name: "雪球"
+      expected_domain: "xueqiu.com"
+    - id: "gelonghui"
+      name: "格隆汇"
+      expected_domain: "gelonghui.com"
+    - id: "zaobao"
+      name: "联合早报"
+      expected_domain: "zaobao.com.sg"
+    - id: "cankaoxiaoxi"
+      name: "参考消息"
+      expected_domain: "cankaoxiaoxi.com"
 
 
 
@@ -136,6 +152,20 @@ rss:
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       enabled: false                  # 禁用
       # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
+
+    - id: "stats-zxfb"
+      name: "国家统计局-最新发布"
+      url: "https://www.stats.gov.cn/sj/zxfb/rss.xml"
+      max_age_days: 7                 # 统计局更新慢，放宽避免漏推
+
+    - id: "stats-sjjd"
+      name: "国家统计局-数据解读"
+      url: "https://www.stats.gov.cn/sj/sjjd/rss.xml"
+      max_age_days: 7
+
+    - id: "ftchinese"
+      name: "FT中文网"
+      url: "https://www.ftchinese.com/rss/feed"
      
     - id: "yahoo-finance"
       name: "雅虎财经"
