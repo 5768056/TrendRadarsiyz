@@ -97,12 +97,6 @@ platforms:
     - id: "gelonghui"
       name: "格隆汇"
       expected_domain: "gelonghui.com"
-    - id: "zaobao"
-      name: "联合早报"
-      expected_domain: "zaobao.com.sg"
-    - id: "cankaoxiaoxi"
-      name: "参考消息"
-      expected_domain: "cankaoxiaoxi.com"
 
 
 
