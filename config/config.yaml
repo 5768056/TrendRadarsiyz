@@ -97,6 +97,19 @@ platforms:
     - id: "gelonghui"
       name: "格隆汇"
       expected_domain: "gelonghui.com"
+    # ↓ 行情快讯 / 国际财经 / 科技效率 / 开源趋势
+    - id: "fastbull"
+      name: "FastBull 财经快讯"
+      expected_domain: "fastbull.com"
+    - id: "mktnews"
+      name: "MKTNews 国际财经"
+      expected_domain: "mktnews.net"
+    - id: "sspai"
+      name: "少数派"
+      expected_domain: "sspai.com"
+    - id: "github"
+      name: "GitHub Trending"
+      expected_domain: "github.com"
 
 
 
